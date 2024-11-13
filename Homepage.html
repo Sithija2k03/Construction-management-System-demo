@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Home Page</title>
+        <link  rel="StyleSheet" href="Homepage.CSS">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <script src="Static.js"></script>
+        
+    </head>
+    <body onload ="slider()">
+            
+            <label class="logo">Constru<span>X</span></label>
+        
+        <div class="container">
+            <input type="search" id="searchbar" name="search-bar" placeholder="search...">
+            <button type="submit" id="searchbutton">
+                <i class="fa fa-search"></i>
+            </button>
+            <button type="button" id="signup" onclick="window.location.href='../CMS/Userlogin/Register.html'">Sign Up</button>
+            <button type="button" id="login" onclick="window.location.href='../CMS/Userlogin/index.php'">Log in</button>
+        </div>
+        <br>
+        <br>
+        <nav class="navbar">
+            
+            <ul>
+                <li><a class="active"  href="#">Home</a></li>
+                <li><a href="url">Solutions</a></li>
+                <li><a href="url">Features</a></li>
+                <li><a href="AboutUs.html">About Us</a></li>
+                <li><a href="ContactUs.html">Contact Us</a></li>
+            </ul>
+          </nav>
+          
+          <div class="section-1">
+            <div class="Slideshow">
+                <div class="slider">
+                    <img src="Images/image1.jpg" alt="Slide 1" id="img1" >
+                </div>
+                <div class="overlay"> 
+                    <div class="content"><h1>All-in-one </h1>
+                        <h1>Construction Management Software</h1>
+                        <br>
+                        <h3>ConstruX makes your constructions easier!!!</h3>
+                        <div >
+                            <input type="email" name="email" placeholder="user@gmail.com" id="email">
+                            <input type="submit" value="Get Started for Free" id="registerfree">
+                        </div>
+                    </div>   
+                </div>
+            </div>      
+          </div>
+            
+        <script>
+            var img1 = document.getElementById("img1");
+            var images = new Array(
+                   "Images/image1.jpg",
+                   "Images/image2.jpg",
+                   "Images/image6.jpg"
+                );
+
+
+            var len = images.length;
+            var i=0;
+
+            function slider(){
+                if(i > len - 1){
+                i=0;
+                }
+                img1.src = images[i];
+                i++;
+               setTimeout('slider()',5000);
+    
+                }
+        </script>   
+        <div class="section-2">
+            <img src="Images/image7.jpg" alt="Construction worker" width="40%" height="60%">
+        <div class="text">
+            <h2>Double your efficiency with simplified Project Management</h2>
+            <ul class="list1">
+                <li>Manage your project plans easily</li>
+                <li>Set reminders, deadlines and milestones</li>
+                <li>Keep your team members informed with real time updates</li>
+            </ul>
+        </div>
+        </div>
+        <br>
+        <div class="section-3">
+            <img src="Images/image10.jpg" alt="image10">
+            <div class="description">
+                <h2>Why you should use <span style="color: rgb(0,81,255);">ConstruX</span> ?</h2>
+                <p class="paragraph">ConstruX allows you to manage your project plans<br>
+                    easily that takes the weight off your shoulder.<br>
+                    With ConstruX, projects are always delivered on exact time <br>
+                    and also within the estimated budget:Build your success!!!<br>
+                </p>
+            </div>
+        </div>
+               
+        <figure class="section-4">
+            <img src="Images/darkblue2.jpg" alt="Darkblue-banner">
+            <div class="register" style="text-align: center;">
+                <h2 style="color: white;">Try ConstruX For Free!</h2>
+                <input type="email" name="email" placeholder="user@gmail.com" id="email">
+                <input type="submit" value="Get Started for Free" id="registerfree">
+            </div>
+        </figure>
+        
+          <footer>
+            <div class="left-footer">
+                <label class="logo-footer">ConstruX</label><br><br>
+                <i class="fa fa-map-marker"></i> 
+                No 547 Athurugiriya Road,<br>Malabe
+                <br><br>
+                <i class="fa fa-phone"></i>
+                011-1258933
+                <br><br>
+                <i class="fa fa-envelope"></i>
+                support@gmail.com
+                <p id="copyright">Copyright &copy;2024 ConstruX. All rights reserved.</p>
+            </div>
+
+            <div class="right-footer">
+                <h4>SOCIAL MEDIA:</h4>
+                <a href="#"><img src="Images/facebook.png" alt="facebook"> </a>
+                <a href="#"><img src="Images/instagram.png" alt="instagram"> </a> 
+                <a href="#"><img src="Images/twitter.png" alt="twitter"> </a>
+                <a href="#"><img src="Images/whatsapp.png" alt="whatsapp"> </a>
+            </div>
+            
+            <div class="center-footer">
+                <p class="footer-links">
+                    <a href="Homepage.html">Home</a>|
+                    <a href="url">Solutions</a>|
+                    <a href="url">Features</a>|
+                    <a href="AboutUs.html">About Us</a>|
+                    <a href="ContactUs.html">Contact Us</a> 
+                </p>
+                <div class="privacy-terms">
+                    <ul>
+                        <li><a href="#">Terms and Conditions</a></li>
+                        <li><a href="#">Privacy policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+
+          </footer>
+    </body>
+</html>

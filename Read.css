@@ -1,0 +1,128 @@
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-image: url("Images/pattern2.jpg");
+    background-position-y: 300px;
+    background-repeat: no-repeat;
+
+}
+.logo{
+    position:relative;
+    top: 10px;
+    color:rgb(0, 81, 255);
+    font-size: 50px;
+    line-height: 30px;
+    font-weight: bolder;  
+}
+span{
+    font-size: 60px;
+    font-weight: bold
+}
+.container{
+    float:right;
+}
+.container img{
+    width:50px;
+    height:50px;
+    position:relative;
+    right:10px;
+    top:5px;
+}
+nav{
+    background:rgb(0, 81, 255);
+    height: 60px;
+    width:"100%";
+}
+nav ul{
+    list-style: none;
+    margin: 5px;
+    padding: 0;
+    float: left;
+}
+nav li{
+    display: inline-block;
+    margin-right: 40px;   /*Adjust space between blocks*/
+    padding: 10px;
+}
+li:last-child{
+    margin-right: 0; /*Remove margin from last item*/
+}
+nav a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    float:left;
+    display: block;
+    color: white;
+    margin-bottom: 10px;
+    
+}
+ a.active, a:hover{
+    background-color:black; /*Show active tab*/
+    transition-duration: 0.5s;
+    padding: 5px;
+    margin-bottom: 5px;
+
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 150px;
+    padding-top: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 150px;
+    position:relative;
+    bottom: 0;
+}
+
+
+
+
+
+
+.left-footer{
+    float: left;
+    font-size: 20px;
+}    
+.right-footer{
+    float: right;
+}
+.center-footer{
+   text-align: center;
+}
+.logo-footer{
+    margin-top:10px;
+    color:rgb(0, 81, 255);
+    font-size: 50px;
+    line-height: 30px;
+    font-weight: bolder;
+}
+footer a{    
+    display: inline-block;
+    margin: 0 10px; /*adjust space between icons*/
+}
+footer img{
+    width: 40px;
+    height: 40px;   
+}
+#copyright{
+    font-size: 15px;
+    margin-top: 65px;
+}
+.footer-links{
+   text-decoration: none;
+}
+.privacy-terms ul{
+    list-style: none;
+    margin-top: 60px;
+    margin-right: 300px;
+}
+.privacy-terms a{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}

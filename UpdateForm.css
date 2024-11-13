@@ -1,0 +1,59 @@
+body{
+    margin:0;
+    overflow-x: hidden;
+}
+
+h1{
+    margin-top:0;
+    font-size:50px;
+    text-align:center;
+    background-color:blue;   
+    color:white;
+    padding:20px;  /*thickness of the color around text*/
+}
+
+h2{
+    font-size:20px;
+}
+
+form.update-from input{
+    padding: 10px 50px; 
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px; 
+    font-size: 14px; 
+    color: #333;
+   
+}
+.container{
+    position: relative;
+    left:40%;
+    text-align: left;
+}
+
+.field {
+    background-color:#C0C0C0; 
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;
+    width: 50%; /* Set width to 50% of parent */
+    margin: auto; 
+    padding: 20px; 
+    border: 1px solid #ddd; 
+    border-radius: 10px; 
+    text-align: left; 
+    position: relative;
+    right:600px;
+    
+    
+  }
+
+  button.edit {
+    background-color:green;
+    padding:10px 25px;
+    color:white;
+    font-size:15px;
+    border:none;
+    border-radius:5px;
+    margin-left:100px;
+    
+  }

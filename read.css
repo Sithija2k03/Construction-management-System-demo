@@ -1,0 +1,41 @@
+.table{
+    width: 90%;
+    position: relative;
+    left: 20px;
+    
+}
+
+th{
+    border: 2px solid black;
+    padding: 20px;
+    text-align: center;
+    background-color:black;
+    color:white;
+}
+td{
+    border: 1px solid black;
+    padding: 20px;
+    text-align: left;
+}
+
+.edit{
+    background-color:green;
+    color:white;
+    padding:10px 20px;
+    border:none;  /*Remove border*/
+    border-radius:5px;
+    cursor: pointer;
+    text-decoration: none; /*Remove underline*/
+
+
+}
+.delete{
+    background-color:red;
+    color:white;
+    margin-left :20px;
+    padding:10px 20px;
+    border:none;
+    border-radius:5px;
+    cursor: pointer;
+    text-decoration: none;
+}

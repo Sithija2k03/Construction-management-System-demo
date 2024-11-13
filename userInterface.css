@@ -1,0 +1,151 @@
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    /* background-image: url("./Images/patern2.jpg"); */
+    background-position-y: 300px;
+    background-repeat: no-repeat;
+
+}
+/* h1{
+    text-align: center;
+    font-size: large;
+} */
+.logo{
+    position:relative;
+    top: 10px;
+    color:rgb(0, 81, 255);
+    font-size: 50px;
+    line-height: 30px;
+    font-weight: bold;  
+}
+span{
+   font-size: 60px;
+   font-weight: bolder;
+}
+.container{
+    float: right;
+    width: 50px;
+    height: 50px;
+
+}
+#searchbar{
+    border:1px solid black;
+    border-radius: 25px;
+    padding: 10px 15px;
+    font-size: 16px;
+    margin-top: 7px;
+}
+#searchbutton{
+ 
+    position: relative;
+    right: 1px;
+    top: 50%;
+    transform: translateY(-50);
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+#signup,#login{
+    background-color: rgb(0, 81, 255);
+    border:none;
+    color: white;
+    padding:10px 20px;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+nav{
+    background:rgb(0, 81, 255);
+    height: 60px;
+    width:"100%";
+}
+nav ul{
+    list-style: none;
+    margin: 5px;
+    padding: 0;
+    float: left;
+}
+nav li{
+    display: inline-block;
+    margin-right: 20px;   
+    padding: 10px;
+}
+li:last-child{
+    margin-right: 0; 
+}
+nav a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    float:left;
+    display: block;
+    color: white;
+    margin-bottom: 10px;
+    
+}
+nav, a.active, a:hover{
+    background-color:#1b9bff; /*Show active tab*/
+    transition:  .5s;
+    padding: 5px;
+    margin-bottom: 5px;
+
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 150px;
+    padding-top: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 150px;
+    position:relative;
+    bottom: 0;
+}
+.left-footer{
+    float: left;
+    font-size: 20px;
+}    
+.right-footer{
+    float: right;
+}
+.center-footer{
+   text-align: center;
+}
+.logo-footer{
+    margin-top:10px;
+    color:rgb(0, 81, 255);
+    font-size: 50px;
+    line-height: 30px;
+    font-weight: bolder;
+}
+footer a{    
+    display: inline-block;
+    margin: 0 10px; /*adjust space between icons*/
+}
+footer img{
+    width: 40px;
+    height: 40px;   
+}
+#copyright{
+    font-size: 15px;
+    margin-top: 65px;
+    margin-left: 0;
+}
+.footer-links{
+   text-decoration: none;
+}
+.privacy-terms ul{
+    list-style: none;
+    margin-top: 60px;
+    margin-right: 300px;
+}
+.privacy-terms a{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}

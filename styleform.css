@@ -1,0 +1,42 @@
+form.create-form input{
+    padding: 8px 50px;
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    font-size: 14px; 
+    color: #333;
+
+}
+
+.fieldset{
+    background-color:#C0C0C0;
+    justify-content: center; 
+    align-items: center;
+    width: 50%; 
+    margin: auto;
+    padding: 20px; 
+    border: 1px solid #ddd;
+    border-radius: 10px; 
+    text-align: left; 
+   
+}
+
+.submit{
+    background-color:green;
+    padding:10px 25px;
+    color:white;
+    font-size:15px;
+    border:none;
+    border-radius:5px;
+    margin-left: 30px;
+}
+.button{
+    background-color:orangered;
+    padding:10px 25px;
+    color:white;
+    font-size:15px;
+    border:none;
+    border-radius:5px;
+    margin-left: 30px;
+}
+
+

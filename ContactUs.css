@@ -1,0 +1,218 @@
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-image: url("Images/pattern2.jpg");
+    background-position-y: 300px;
+    background-repeat: no-repeat;
+
+}
+.logo{
+    position:relative;
+    top: 10px;
+    color:rgb(0, 81, 255);
+    font-size: 50px;
+    line-height: 30px;
+    font-weight: bolder;   
+}
+span{
+    font-size: 60px;
+    font-weight: bolder;
+ }
+.container{
+    float: right;
+
+}
+#searchbar{
+    border:1px solid black;
+    border-radius: 25px;
+    padding: 10px 15px;
+    font-size: 16px;
+    margin-top: 7px;
+}
+#searchbutton{
+ 
+    position: relative;
+    right: 1px;
+    top: 50%;
+    transform: translateY(-50);
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+#signup,#login{
+    background-color: rgb(0, 81, 255);
+    border:none;
+    color: white;
+    padding:10px 20px;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+nav{
+    background:rgb(0, 81, 255);
+    height: 60px;
+    width:"100%";
+}
+nav ul{
+    list-style: none;
+    margin: 5px;
+    padding: 0;
+    float: right;
+}
+nav li{
+    display: inline-block;
+    margin-right: 20px;   /*Adjust space between blocks*/
+    padding: 10px;
+}
+li:last-child{
+    margin-right: 0; /*Remove margin from last item*/
+}
+nav a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    float:right;
+    display: block;
+    color: white;
+    margin-bottom: 10px;
+    
+}
+ a.active, a:hover{
+    background-color:#1b9bff; /*Show active tab*/
+    transition:  .5s;
+    padding: 5px;
+    margin-bottom: 5px;
+
+}
+h1{
+    text-align: center;
+    font-size: 100px;
+} 
+.area-1{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+   
+}    
+.area-1 img{
+    width: 100%;
+    height: 680px;   
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+    position: absolute;
+    top:52%;
+    left: 0;    
+}
+form{
+    text-align: center;
+    position: relative;
+    top: 80px;
+    color: white;
+    font-size: 20px;
+   
+}
+.feedback input[type="text"] {
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 7px 50px;
+}
+.feedback input[type="email"] {
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 7px 50px;
+}
+.feedback textarea {
+
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.feedback input[type="submit"]{
+    color:white;
+    background-color: blue;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+.contact-line i{
+    margin-top: 15px;
+    margin-left: 400px;
+    color: white;
+    font-size: 20px;
+}
+i:first-child{
+    margin-left: 0;
+}
+.overlay-2{
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+    margin-top: 150px;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 150px;
+    padding-top: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 150px;
+    position:relative;
+    bottom: 0;
+}
+.left-footer{
+    float: left;
+    font-size: 20px;
+}    
+.right-footer{
+    float: right;
+}
+.center-footer{
+   text-align: center;
+}
+.logo-footer{
+    margin-top:10px;
+    color:rgb(0, 81, 255);
+    font-size: 50px;
+    line-height: 30px;
+    font-weight: bolder;
+}
+footer a{    
+    display: inline-block;
+    margin: 0 10px; /*adjust space between icons*/
+}
+
+footer img{
+    width: 40px;
+    height: 40px;   
+}
+#copyright{
+    font-size: 15px;
+    margin-top: 65px;
+}
+.footer-links{
+   text-decoration: none;
+}
+.privacy-terms ul{
+    list-style: none;
+    margin-top: 60px;
+    margin-right: 300px;
+}
+.privacy-terms a{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}

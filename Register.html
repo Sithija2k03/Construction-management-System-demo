@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sign Up</title>  
+        <link rel="stylesheet" href="Register.css">
+    </head>
+
+    <body>
+        <div class="sign-container">
+           <!-- <img src="Images/signup1.jpg" alt="Image" class="signimage"> -->
+            
+            <button type="submit" class="btn1"><a href="index.php">Login</a></button>
+            <h1>
+             Sign Up to <span style="color: blue;">ConstruX</span>
+            
+            </h1>
+        
+            <div class="wrap"> 
+            
+            <form action="Register.php" method="POST">
+                
+                <input type="text" id="fname" placeholder="Enter First Name" name="First_name" required><br>
+                <input type="text" id="lname" placeholder="Enter Last Name" name="Last_name" required><br>
+                <input type="tel" id="phone" name="Contact_No" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" placeholder="Enter Phone number(07X-XXX-XXX)" required><br>
+                <input type="email" id="email" placeholder="Enter valid Email" name="Email" required><br>
+                <input type="date" id="dob" placeholder="Enter date of Birth" name="DOB" max="2004-12-31" required><br>
+                <input type="text" id="address" placeholder="Enter Address" name="Address" required><br>
+                <label for="Gender">Gender:</label>
+                <select id="gender" name="Gender" required>
+                <option value="" disabled selected>Select your Gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                </select>
+
+                <input type="password" id="password" placeholder="Enter Password" name="Password" required><br>
+
+                <input type="password" id="confirm_password" placeholder="Confirm Password" name="confirm_password" required oninput="validatePassword()"><br>
+                <span id="passwordError" style="color: red;"></span><br>
+
+
+                <button type="submit" name="submit" class="btn2" href="userProfile.php">Sign Up</button>
+
+
+
+
+            </form>
+            </div> 
+        </div>  
+
+
+        
+    <script>
+        function validatePassword() {
+            var password = document.getElementById("password").value;
+            var confirmPassword = document.getElementById("confirm_password").value;
+            var passwordError = document.getElementById("passwordError");
+
+            if (password !== confirmPassword) {
+                passwordError.textContent = "Passwords do not match";
+                return false;
+            } else {
+                passwordError.textContent = "";
+                return true;
+            }
+        }
+    </script>
+
+
+    </body>
+</html>
+
+
+
+
+

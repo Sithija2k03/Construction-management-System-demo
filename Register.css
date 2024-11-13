@@ -1,0 +1,210 @@
+.sign-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.signimage {
+    position: absolute;
+    /*transform: translate(-50%, -50%);*/
+    width: 1000px; 
+   float: right;
+   padding: 1000px;
+}
+h1{
+    text-align: left;
+}
+
+.btn1{
+    padding: 10px 50px;
+    background: rgb(0,81,255) ;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(10, 165, 10, 0.1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #000000;
+    font-weight: 300;
+    float: right;
+}
+.btn1:hover{
+    background: rgba(46, 207, 67, 0.808) ;
+}
+
+.wrap{
+    
+    width: 420px;
+    background:transparent;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(50px);
+    box-shadow:0 0 10px rgba(255, 255, 255, 0.2) ;
+    color: rgb(0, 0, 0); /*login color*/
+    border-radius: 20px;
+    padding: 30px 40px;
+    position: relative;
+    left: 500px;
+    top: 0px; 
+    
+}
+#fname{
+    outline: none;
+    width: 100%;
+    overflow: visible;
+    text-align:left;
+    box-shadow: none;
+    font-weight: 200;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #3b3b3b;
+    font-size: 18px;
+    padding-left: 0;
+    height: 35px;
+    margin-bottom: 20px;
+}
+#lname{
+    outline: none;
+    width: 100%;
+    overflow: visible;
+    text-align:left;
+    box-shadow: none;
+    font-weight: 200;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #3b3b3b;
+    font-size: 18px;
+    padding-left: 0;
+    height: 35px;
+    margin-bottom: 20px;
+}
+#phone{
+    outline: none;
+    width: 100%;
+    overflow: visible;
+    text-align:left;
+    box-shadow: none;
+    font-weight: 200;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #3b3b3b;
+    font-size: 18px;
+    padding-left: 0;
+    height: 35px;
+    margin-bottom: 20px;
+}
+#email{
+    outline: none;
+    width: 100%;
+    overflow: visible;
+    text-align:left;
+    box-shadow: none;
+    font-weight: 200;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #3b3b3b;
+    font-size: 18px;
+    padding-left: 0;
+    height: 35px;
+    margin-bottom: 20px;
+}
+#dob{
+    outline: none;
+    width: 100%;
+    overflow: visible;
+    text-align:left;
+    box-shadow: none;
+    font-weight: 200;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #3b3b3b;
+    font-size: 18px;
+    padding-left: 0;
+    height: 35px;
+    margin-bottom: 20px;
+}
+#gender{
+    outline: none;
+    width: 100%;
+    overflow: visible;
+    text-align:left;
+    box-shadow: none;
+    font-weight: 200;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #3b3b3b;
+    font-size: 18px;
+    padding-left: 0;
+    height: 35px;
+    margin-bottom: 20px;
+}
+#password{
+    outline: none;
+    width: 100%;
+    overflow: visible;
+    text-align:left;
+    box-shadow: none;
+    font-weight: 200;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #3b3b3b;
+    font-size: 18px;
+    padding-left: 0;
+    height: 35px;
+    margin-bottom: 20px;
+}
+#confirm_password{
+    outline: none;
+    width: 100%;
+    overflow: visible;
+    text-align:left;
+    box-shadow: none;
+    font-weight: 200;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #3b3b3b;
+    font-size: 18px;
+    padding-left: 0;
+    height: 35px;
+    margin-bottom: 20px;
+}
+#address{
+    outline: none;
+    width: 100%;
+    overflow: visible;
+    text-align:left;
+    box-shadow: none;
+    font-weight: 200;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #3b3b3b;
+    font-size: 18px;
+    padding-left: 0;
+    height: 35px;
+    margin-bottom: 20px;
+}
+.btn2{
+    width: 100%;
+    height: 45px;
+    background: rgb(0,81,255) ;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(10, 165, 10, 0.1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #000000;
+    font-weight: 300;
+}
+.btn2:hover{
+    background: rgba(238, 122, 5, 0.808) ;
+}
+
+body {
+    background-image: url('Images/signup1.jpg');
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    
+    
+}
